@@ -1,0 +1,169 @@
+.navbar{
+    
+    padding: 0.1rem;
+}
+.logo img{
+    width: 7em;
+    height: 6em;
+    float: left;
+}
+ .navbar li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+
+}
+ .navbar li a:hover{
+    color:#ff4400;
+    
+
+}
+ .navbar .nav-item{
+    display: inline-block;
+    padding: 1rem;
+}
+ .navbar .nav-items{
+    float: right;
+    margin-top: 2rem;
+}
+.navbar::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+/* -------------------------------- cource container -------------------------------------  */
+.cources{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+}
+
+.cource-container{
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    box-shadow: 5px 2px 10px rgba(83, 83, 83, 0.692);
+    border-radius: 1rem;
+
+}
+.cource-container .cource-img{
+    width: 30rem;
+    height: 30rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+}
+.logo2{
+    width: 6rem;
+    height: 5rem;
+}
+.cource-container h3{
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+
+.text-cou{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 1rem;
+    width: 32rem;
+
+}
+.fa{
+    
+    padding-left: 1rem;
+    color: #ff0202;
+    font-weight: 600;
+    transition: ease-in-out 0.2s all;
+}
+.fa:hover{
+    color: black;
+}
+.fa2{
+    margin-left: 9.5rem;
+    color: #0097dd;
+    font-weight: 600;
+    background: #e2e2e2;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: 00.2s all ease-in-out;
+}
+.fa2:hover{
+    color: #034a9b;
+}
+
+
+.price{
+     display: flex;
+     flex-direction: row;
+}
+.rowp{
+    display: flex;
+    flex-direction: column;
+}
+.rowp1{
+  opacity: 0;
+}
+.rowp span{
+    margin-left: 10rem;
+    font-size: 2rem;
+}
+
+body .cources  .rowp2 .btn-enroll{
+    background: #f84c0e;
+  
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.8rem;
+    font-weight: 600;
+    transition:  all 0.5s ease-in-out;
+}
+body .cources  .rowp2 .btn-enroll:hover{
+    background:  #0097dd;
+   
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+.cources{
+    flex-direction: column;
+    margin-left: 30%;
+    /* margin-right: 10%; */
+
+
+
+}
+.cource-container{
+    margin-bottom: 5rem;
+    
+}
+
+  
+}
+
+@media(max-width:500px){
+
+    body .cources{
+       
+       
+       margin-right: 10rem;
+    
+    }
+
+}

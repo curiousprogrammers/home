@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    
+    }
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgba(255, 255, 255, 0.993);
+    
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 90%;
+
+}
+.header2{
+    margin-top: -0.2rem;
+}
+
+/* ################################# header style ################################# */
+
+
+
+
+.navbar{
+    /* padding-top: 1rem; */
+    padding-right: 1rem;
+    /* padding: 0.5rem; */
+    background-color: rgba(255, 255, 255, 0.993);
+    
+    position: sticky;
+    top: 2;
+}
+.header .logo img{
+    width: 10rem;
+    height: 9rem;
+    float: left;
+    position: fixed;
+}
+.header .navbar li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-right: 0.8rem;
+    transition: all 0.2s ease-in-out;
+    position: fixed;
+
+}
+.header .navbar li a:hover{
+    color:#ff4400;
+    
+
+}
+.header .navbar .nav-item{
+    display: inline-block;
+    padding: 1rem;
+}
+.header .navbar .nav-items{
+    float: right;
+    margin-top: 2rem;
+}
+.navbar::after{
+    content:'';
+    display: block;
+    clear: both;
+
+}
+
+/* ------------------------------ anout us --------------------------  */
+
+.part1 , .part2{
+    display: flex;
+    margin-top: 5rem;
+    /* background: linear-gradient( rgb(255, 255, 255),rgba(255, 238, 219, 0.562)); */
+    /* padding-left: 5rem; */
+    /* padding-right: 5rem; */
+}
+.part1 .aboutus-title1 h1{
+    margin-top :5rem ;
+    /* padding-top: 5rem; */
+
+    font-size: 3.5rem;
+    color: #000;
+    border-bottom: 2px solid rgba(124, 124, 124, 0.100) ;
+    text-shadow: rgba(0, 0, 0, 0.192) 1px 1px 1px;
+    
+}
+.part1 .aboutus-title1 p{
+    font-size: 1.9rem;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: rgb(76, 81, 90);
+    
+}
+.part1 img {
+    height: 50rem;
+    width: 45rem;
+}
+.part1 .error img  {
+    height: 40rem;
+    width: 50rem;
+}
+.part1 .error2 img  {
+    height: 30rem;
+    width: 40rem;
+    margin-top: 8rem;
+}
+.part1 .AA img {
+    height: 50rem;
+    width: 50rem;
+}
+
+.part2 img{
+    height: 50rem;
+    width: 50rem;
+    padding-right: 1rem;
+}
+.part2 .at p{
+
+    font-size: 1.9rem;
+    width: 90%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: rgb(75, 81, 90);
+    margin-left: 5rem;
+    
+}
+.part2 h1{
+    padding-top: 5rem;
+    text-shadow: rgba(0, 0, 0, 0.192) 1px 1px 1px;
+    font-size: 3.5rem;
+    color: #000;
+    margin-left: 5rem;
+    border-bottom: 2px solid rgba(124, 124, 124, 0.116) ;
+}
+
+
+/* -------------------------------------- Our mission --------------------------  */
+
+.our-mission{
+    display: flex;
+    padding-right: 8rem ;
+
+}
+.our-mission img{
+    margin-top: 7.5rem;
+
+    height: 38rem;
+    width: 38rem;
+}
+.our-mission h2{
+    font-size: 4rem;
+    text-shadow: rgba(0, 0, 0, 0.192) 1px 1px 1px;
+    padding-top: 5rem;
+    margin-left: 5rem;
+    border-bottom: 2px solid rgba(124, 124, 124, 0.116) ;
+    /* width: 50rem; */
+
+}
+.our-mission ul li{
+    margin-top: 5rem;
+    font-size: 2.2rem;
+    /* width: 80%; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: rgb(32, 32, 32);
+    margin-left: 5rem;
+}
+.our-mission ul li{
+    list-style: disc;
+}
+
+
+.m-founder-h{
+
+    font-size: 5rem;
+    color: #ff4600;
+    text-shadow: rgba(0, 0, 0, 0.192) 1px 1px 1px;
+    padding-top: 5rem;
+    margin-left: 5rem;
+    /* border-bottom: 2px solid rgba(124, 124, 124, 0.116) ;s */
+    /* width: 50rem; */
+    text-align: center;
+}
+ .part2 .error3 img{
+     height: 30rem;
+     width: 45rem;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media(max-width:800px){
+
+   .header2 .navbar .nav-items a {
+        float: none;
+        display: block;
+        /* flex-direction: row; */
+        text-align: center;
+        width: 100%;
+        
+        
+    
+    
+        
+    }
+    .navbar .logo img{
+        float: none;
+        display: block;
+        width: 10rem;
+        height:9rem;
+        
+    }
+
+    .part1{
+        flex-direction: column;
+        text-align:left;
+        
+        
+    }
+    .part2{
+        flex-direction: column-reverse;
+        margin-left: -2rem;
+        /* text-align: left; */
+    }
+    .our-mission{
+        flex-direction: column;
+        text-align: left;
+    }
+
+   body .part2 p{
+        margin-left: -5rem;
+        
+    }
+    
+    ul li{
+        width: 90%;
+    }
+
+   
+    
+
+    .part1 img {
+        height: 30rem;
+        width: 25rem;
+    }
+    .part1 .error img  {
+        height: 30rem;
+        width: 40rem;
+    }
+    .part1 .error2 img  {
+        height: 20rem;
+        width: 30rem;
+        margin-top: 8rem;
+    }
+    .part2 .error3 img{
+        width: 40rem;
+    }
+    .part1 .AA img {
+        height: 40rem;
+        width: 40rem;
+    }
+
+   body .part2 img{
+        height: 40rem;
+        width: 40rem;
+        /* padding-right: 1rem; */
+        margin-left: 10%;
+    }
+
+ }
